@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsolmon</title>
+    <link rel="icon" href="mgl icon.png" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="Home.html" class="logo">MGL</a>
+
+        <input type="checkbox" id="check"> <!-- checkbox gargana-->
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i> <!-- menunii temdgelgeeg oruulj ogno -->
+            <i class="bx bx-x" id="close-icon"></i> <!-- x temdgelgeeg oruulj ogno -->
+
+        </label>
+
+        <nav class="navbar">
+            <a href="Home.html" style="--i:0">Нүүр хуудас</a>
+            <a href="About.html" style="--i:1">Дэлгэрэнгүй</a>
+            <a href="comment.html" style="--i:2">Сэтгэгдэл</a>
+            <a href="contact.html" style="--i:3">Бидний тухай</a>
+        </nav>
+        
+    </header>
+
+<!-- About -->
+    <main class="main">
+        <section class="home section" id="home">
+            <img src="cover2.jpeg" alt="home image" class="home__bg">
+            <div class="home__shadow"></div>
+        </section>
+
+        <section class="about section" id="about">
+            <h1 class="about__title"><center>
+                Монголын <br>
+                Үзэсгэлэнт
+                Газрууд</center>
+                
+            </h1>
+
+            
+
+            <div class="about__container container grid">
+                <div class="about__data">
+                    
+                    <audio controls muted loop src="audio.mp3"></audio>
+                    
+                    <h2 class="section__title">
+                        АЛТАЙ ТАВАН БОГД УУЛ
+                    </h2>
+
+                    <p class="about__description">
+                        Монгол Алтайн нурууны Алтай Таван Богд уул нь Монгол улсын хамгийн өндөр уулс юм.
+                        Энэ ч утгаараа Монгол орны дээвэр хэмээгддэг. Таван Богд уул нь Баян-Өлгий аймгийн
+                        Улаанхус сумд оршдог. Таван Богд уул нь таван үндсэн оргилтой ба Монголын хамгийн 
+                        том гурван мөсөн гол болох Потанины мөсөн гол, Александрын мөсөн гол, Гранегийн 
+                        мөсөн голууд Таван Богдод оршдог. Эдгээрээс хамгийн том нь Потанины мөсөн гол бөгөөд 
+                        14 орчим км урттай. Анхлан 1956 онд Монголын уулчид авирч байснаас хойш 700 гаруй 
+                        уулчид авирсан ба гадаад дотоодын уулчдын авирах дуртай уул болоод байна.
+                        1996 онд Алтай Таван Богд уул, Хотон, Хурган, Даян нуур, Ховд, Хар салаа, 
+                        Цагаан салаа, Сонгинот, Ёлт зэрэг голуудын ай савуудыг хамруулан Алтай Таван Богдын 
+                        байгалийн цогцолборт газар хэмээн улсын хамгаалалтанд авсан. 2012 онд Алтай Таван 
+                        Богд уулыг төрийн тахилгат уул болгон 4 жилд нэг тахиж байхаар болсон.
+                    </p>
+                </div>
+
+                <div class="about__image">
+                    <img src="altai.jpeg" alt="about image" class="about__img">
+                    <div class="about__shadow"></div>
+                </div>
+            </div>
+
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title">
+                        АЛТАН ТАШУУР ЦОГЦОЛБОР
+                    </h2>
+
+                    <p class="about__description">
+                        Төв аймгийн Эрдэнэ сумд орших Алтан ташуур цогцолбор. Гурван мэргидэд эхнэр, хүүхдээ 
+                        алдсан Тэмүүжин тэднийг дайлахаар явах замдаа Цонжин болдог буюу одоогийн Алтан ташуур 
+                        цогцолбор баригдсан газраас нэгэн ташуур олсон гэдэг. Энд Чингис хааны 40 метр өндөр 
+                        хөшөө баригдсан нь Чингис хааны морьт хөшөө байрладаг. XIII дугаар зуун цогцолбор нь 
+                        Улаанбаатар хотоос зүүн тийш 96 километрт оршдог. 
+
+                    </p>
+                </div>
+
+                <div class="about__image">
+                    <img src="altantashuur.jpeg" alt="about image" class="about__img">
+                    <div class="about__shadow"></div>
+                </div>
+            </div>
+            
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title">
+                            ХӨВСГӨЛ ДАЛАЙ
+                    </h2>
+    
+                    <p class="about__description">
+                            Марко Поло Төв азийн нутгаар жуулчилсан тухайгаа “Тэр цөлөөр шөнө аялах үед хэн нэг 
+                            хүний яриа сонсогдох, олон хөгжмөөр зэрэг тоглох мэт авиа сонсогддог” хэмээн бичсэн 
+                            байдаг. Дорноговь аймгийн өмнөд захын Дуут элс харахад ердийн нэг манхан, оройд нь 
+                            гараад хярыг нь барьж явахуйд хөлд өртөн нурах элс нисэх онгоц мэт хүнгэнэн дуугардаг. 
+    
+                    </p>
+                </div>
+    
+                <div class="about__image">
+                    <img src="hovsgoldalai.jpeg" alt="about image" class="about__img">
+                    <div class="about__shadow"></div>
+                </div>
+            </div>
+
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title">
+                            ДУУТ ЭЛС
+                    </h2>
+    
+                    <p class="about__description">
+                            Марко Поло Төв азийн нутгаар жуулчилсан тухайгаа “Тэр цөлөөр шөнө аялах үед хэн нэг 
+                            хүний яриа сонсогдох, олон хөгжмөөр зэрэг тоглох мэт авиа сонсогддог” хэмээн бичсэн 
+                            байдаг. Дорноговь аймгийн өмнөд захын Дуут элс харахад ердийн нэг манхан, оройд нь 
+                            гараад хярыг нь барьж явахуйд хөлд өртөн нурах элс нисэх онгоц мэт хүнгэнэн дуугардаг. 
+    
+                    </p>
+                </div>
+    
+                <div class="about__image">
+                    <img src="duut els.jpg" alt="about image" class="about__img">
+                    <div class="about__shadow"></div>
+                </div>
+            </div>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title">
+                            ГУРВАН НУУРЫН РАШААН
+                        </h2>
+    
+                        <p class="about__description">
+                            Хэнтий аймгийн Дадал сумын нутагт байдаг Гурван нуурын рашааны баруун нуурыг мэдрэлд, 
+                            зүүн нуурыг ходоодонд, дунд нуурыг хуян, шар усанд сайн гэлцдэг. Дунд нуурын өмнөх жижиг 
+                            нуурыг нүдний нуур гэх бөгөөд нуурын ус нүд улайх, хорсоход тустай гэдэг юм байна.
+                        </p>
+                    </div>
+    
+                    <div class="about__image">
+                        <img src="gurwan.jpeg" alt="about image" class="about__img">
+                        <div class="about__shadow"></div>
+                    </div>
+                </div>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title">
+                            БУРХАН ХАЛДУУН УУЛ
+                        </h2>
+    
+                        <p class="about__description">
+                            Өмнөдэлгэр сумын нутаг дахь ой хөвчит энэ уулын нэр нь анх цайзат бэхлэлт гэсэн утгыг 
+                            илэрхийлж байснаа XII зууны үед тахилгын газар гэсэн утга санаатай болжээ. Харин XVII 
+                            зууны үед Монголын түүхчид бурхан гэдэг үгтэй холбон тайлбарласнаас эл үгийн анхын утга 
+                            мартагдсан байна. Тэмүүжин багадаа хэдэнтээ Гурван мэргэд мэт дайснууддаа мөшгөгдөн дутааж 
+                            байх үедээ Бурхан Халдун ууланд бүгэн амь гарч байжээ. Тэрээр нэгэнтээ уулнаас бууж ирснийхээ 
+                            дараа: <br> Бурхан Халдуныг өглөө бүр тахья <br> Өдөр бүр мөргөе <br> Ургийн урагт мэдтүгэй 
+                            . . .  <br> гэж бүсээ хүзүүндээ тохож, сөгдөн есөнтөө мөргөж байсан нь энэ уулыг хичнээн их 
+                            шүтэж байсны илрэл буй за. Бөө мөргөлийн сүсэг бишрэлтэй түүний бодлоор тэр уул зөвхөн сүрлэг 
+                            том хад хясаа, намаг шавар, ой хөвч ихтэйдээ амийг минь аварлаа гэх бус харин түүнд онгон 
+                            сахиус оршдог хэмээн тахиж байсан байна. Тиймээс эдүгээ Бурхан Халдуны овоо нь оройдоо бус 
+                            бэлд нь байдаг. Түүнд дээдсийн шарил байдгаас очиж болохгүй ариун нандин байлгаж, нууцлах 
+                            учиртай хэмээдэг бүлгээ. Төрийн тахилгатай дөрвөн уулын нэгбөгөөд төрийн тахилгаар төрийн хар 
+                            сүлдийг тахиж төрийн хэмжээнд тэмдэглэн өнгөрүүлдэг юм.
+                        </p>
+                    </div>
+    
+                    <div class="about__image">
+                        <img src="burhan haldun.jpeg" alt="about image" class="about__img">
+                        <div class="about__shadow"></div>
+                    </div>
+                </div>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title">
+                            ДЭЛҮҮН БОЛДОГ
+                        </h2>
+    
+                        <p class="about__description">
+                            Дадал сумын зүүн талд орших дээр нь дурсгалын хөшөө босгосон толгой. Түүний 
+                            тухай домог өгүүлэхэд Чингисийг төрөхөд эхэд нь адууны дэлүүгээр шөл уулгахдаа зүүн нуурын 
+                            уснаар чанасан учир Дэлүүн нуур гэж нэрлээд харин баруун нууранд Чингисийн биеийг угааж 
+                            булхаснаас Болдог /Булхдаг-булдаг/ гэж нэрлэдэг. Баруун зүүн нуурын нэрийг нийлүүлж Дэлүүн 
+                            Болдог болсон гэнэ.
+                        </p>
+                    </div>
+    
+                    <div class="about__image">
+                        <img src="deluun boldog.jpeg" alt="about image" class="about__img">
+                        <div class="about__shadow"></div>
+                    </div>
+                </div>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title">
+                            ХЭРЛЭНГИЙН ХӨДӨӨ АРАЛ
+                        </h2>
+    
+                        <p class="about__description">
+                            Хэнтий аймгийн Дэлгэрхаан сумын Хэрлэнгийн хөдөө арал: Хэрлэнбаян Улаан уулын өмнөх, 
+                            хэрлэнгийн тохойд орших 600км.кв хэмжээтэй энэ талын Аварга голын хойд дээр эзэн Чингис 
+                            хааны Их Аураг орд байсан. Энэ газар түүхэн алдарт эх сурвалжит бичиг Монголын Нууц Товчоо 
+                            бичигдэж дууссан учраас 1990 онд түүний 750 жилийн ойд зориулсан хүндэтгэлийн хөшөөг босгосон 
+                            юм. Мөн энэ газрыг улсын нөөц газар болгосон.
+                        </p>
+                    </div>
+    
+                    <div class="about__image">
+                        <img src="herlengiin howoo.jpeg" alt="about image" class="about__img">
+                        <div class="about__shadow"></div>
+                    </div>
+                </div>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title">
+                            ХАР ЗҮРХНИЙ ХӨХ НУУР
+                        </h2>
+    
+                        <p class="about__description">
+                            1189 онд Чингис хаан Хамаг монголын хаанаар өргөмжлөгдсөн. Тийм ч учраас Хар зүрхний Хөх 
+                            нуурын урд эрэг дээрх 15 орчим метр диаметртэй гэрийн буурь мэт хэлбэртэй чулууг Чингис хааныг 
+                            хаанд өргөмжлөгдөхөд нь барьж өгсөн ордны буурь байж магадгүй хэмээн таамагладаг. Цэнхэрмандал 
+                            сумын төвөөс баруун хойд талд орших Хар зүрх уулын энгэр дэх холбоотой том жижиг хоёр нуур бөгөөд 
+                            Цэнхэрийн голын саваас Цагаандаваа хэмээх ойд модтой намхан даваагаар 4 км зайтайгаар тусгаарлагдан 
+                            оршдог. Хар зүрх уул нь араараа модтой, зүрхэн хэлбэрийн шовх уул юм. Хар зүрхний Хөх нуурын орчим 
+                            нь шинэс, хус, улиасан ойтой, бургас, бут, бөөрөг бүхий ус намаг ихтэй, ой тайгын бүсийн төрх 
+                            байдалтай газар юм.
+                        </p>
+                    </div>
+    
+                    <div class="about__image">
+                        <img src="har zurhnii hoh nuur.jpeg" alt="about image" class="about__img">
+                        <div class="about__shadow"></div>
+                    </div>
+                </div>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title">
+                            РАШААН ХАД
+                        </h2>
+    
+                        <p class="about__description">
+                            Батширээт сумын нутаг, Биндэр уулын зүүн урдах хадтай хошууг Биндэрийн эрүү буюу Рашаан хад гэдэг. 
+                            Энэ орчмоос палеолит, мезолит, неолитын чулуун зэвсгүүд, хүрэл ба төмөр зэвсгийн түрүү үеийн буган 
+                            хөшөө, булш, Хүннү, Кидан, Монголчуудын булш олонтой олддог. Рашаан хаднаа дээд палеолитын үеэс 
+                            дундад зууны үе хүртэлх түүхийн олон үед хамаарах ан амьтан, хүний зургийг цоолборлож, зурж, овгийн 
+                            хэдэн зууны тамгыг сийлж, орхон, кидан, араб-перс, хятад, төвд, монгол бичгээр хорь гаруй бичээс 
+                            бичиж үлдээсэн ба орчинд нь малтлага хийхэд хөрсний бүтцэд дөрвөн соёлт давхарга байгааг илрүүлсэн 
+                            байна. Хаднаас зүүн тийш 950 м-т 195:30 см хэмжээтэй, дөрвөн талдаа бугын дүрстэй 2, дүрсгүй хоёр 
+                            хөшөө байдаг. Хөшөөдийн эргэн тойоронд 12 том жижиг хиргисүүр булштай.
+                        </p>
+                    </div>
+    
+                    <div class="about__image">
+                        <img src="rashaan had.jpeg" alt="about image" class="about__img">
+                        <div class="about__shadow"></div>
+                    </div>
+                </div>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title">
+                            БАЛДАН БРАЙВУН ХИЙД
+                        </h2>
+    
+                        <p class="about__description">
+                            Хэнтий аймгийн Өмнөдэлгэр сумын нутагт байрлах Дэлгэрхаан уулын өвөрт уг хийдийг 
+                            1777 онд боржин чулуугаар барьжээ. Ар халхын Утай Гүмбэн хэмээн нэрлэгдэж байсан энэ том хийдийг их 
+                            хэлмэгдүүлэлтийн үед эвдэн сүйтгэсэн бөгөөд одоо суурин дээр нь жижиг  хийд үйл ажиллагаа явуулж байна. 
+                            Тус хийдийн орчмын нарс, шинэс бүхий ойтой, нилдээ боржин чулуутай сайхан уулыг арван гурван Сансар уул 
+                            гэдэг. Мөн хийдээс зүүн урагш замд боржин чулуун дээр товойлгон хийсэн 2:3 метрийн хэмжээтэй Манзушир 
+                            бурхан байдаг.
+                        </p>
+                    </div>
+    
+                    <div class="about__image">
+                        <img src="baldan braiun hiid.jpeg" alt="about image" class="about__img">
+                        <div class="about__shadow"></div>
+                    </div>
+                </div>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title">
+                            СЭЦЭН ХАНЫ ОРДОН МУЗЕЙ
+                        </h2>
+    
+                        <p class="about__description">
+                            Халхын Сэцэн хан аймгийн хааны ордны суурийг анх 1691 онд тавьсан гэж үздэг бөгөөд дотор талдаа улаан, 
+                            цагаан, бор хэрэмтэй байжээ. Сэцэнханы орд нь анх 20 орчим сүм дуганаас бүрдэж байсан ба эдүгээ 5 сүм 
+                            нь хэвээр хадгалагдан үлдэж чаджээ. Сэцэнханы хэрэглэж байсан пүүсүү чулуугаар хийлгэсэн хоё аяга, хүрэн 
+                            суман модонд угалз хээ урласан сандал, 10:10 см хэмжээтэй 3.9 кг жинтэй Сэцэнханы тамга зэрэг олон үзмэрүүд 
+                            бий.
+                        </p>
+                    </div>
+    
+                    <div class="about__image">
+                        <img src="setsen haani ordni musuem.jpeg" alt="about image" class="about__img">
+                        <div class="about__shadow"></div>
+                    </div>
+                </div>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title">
+                            ӨГЛӨГЧИЙН ХЭРЭМ
+                        </h2>
+    
+                        <p class="about__description">
+                            Батширээт сумын төвөөс баруун урагш Баянгол, Өглөгчийн голын бэлчирт Дайчин уул хэмээх нарс, шинэсэн ойтой 
+                            уулын амнаа чулууг шавар хаалтгүйгээр нямбайлан өрсөн хэрмийг Өглөгчийн хэрэм гэдэг. Ойролцоогоор 3м орчим 
+                            өргөнтэй 2 хаалганы оромтой, дотроо жижиг шороон далангийн үлдэц бүхий эл хэрмийн ханын чулуун өрлөг зүүн 
+                            өмнөд ба өмнөд хэсгээрээ тод мэдэгдэх ба бусад хэсгийг газрын хөрснөөс ялган харахад төвөгтэй болсон. Хэрмийн 
+                            зузаан 2.5 м, ханын өндөр дунджаар 2.5-4.5 м, харин хамгийн өндөр хэсгээрээ 3.1 м хүрнэ. Хэрмийн дунд алсаас 
+                            тод харагдах гозгор хадан цохиог нутгийн ардууд “Чингисийн морины уяа” хэмээн ярьдаг. Хэрмийн дотор барилга 
+                            байсан ул мөр байхгүй  бөгөөд түүний дотор хананд тулган шороон дэвсэг нэмж тэгшилснээс үндэслэн XII-XIV зууны 
+                            үеийн нум сумчдын бэхлэлт байсан гэж үздэг.
+                        </p>
+                    </div>
+    
+                    <div class="about__image">
+                        <img src="uglugch herem.jpeg" alt="about image" class="about__img">
+                        <div class="about__shadow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div>
+                    <a href="#" class="footer__logo">MGL</a>
+
+                    <p class="footer__description">
+                        Азийн цагаан дагина - Монгол улс
+                        
+                    </p>
+                </div>
+
+                <div class="footer__data grid">
+                    <div>
+                        <h3 class="footer__title">Холбоосууд</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="Home.html" class="footer__link">Нүүр хуудас</a>
+                            </li>
+
+                            <li>
+                                <a href="About.html" class="footer__link">Дэлгэрэнгүй</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Холбоосууд</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="comment.html" class="footer__link">Сэтгэгдэл</a>
+                            </li>
+
+                            <li>
+                                <a href="contact.html" class="footer__link">Бидний тухай</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Холбоо барих</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link"><i class='bx bxs-phone' ></i> +976 80161032</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link"><i class='bx bxl-gmail' ></i> Ai21d005@mandakh.edu.mn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__group">
+                <div class="footer_social">
+                    <a href="https://www.facebook.com/profile.php?id=100013416452008" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook' ></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/tslmnrdn/?fbclid=IwAR2ykuv8FSTMw09PNZ5_KnwPqnbnfpQzwZ0tqWi87YPmUWVynmX_kxlC_GU" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+
+                </div>
+
+                <span class="footer__copy">
+                    &#169; Вебийн үндэс хичээлийн хүрээнд хийгдсэн болно.
+                </span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+    
